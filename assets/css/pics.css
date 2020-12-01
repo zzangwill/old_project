@@ -1,5 +1,5 @@
 html {
-    background-color: #F9EEB3;
+ background-color: #F9EEB3;
 }
 
 #nav {
@@ -25,8 +25,7 @@ html {
     color: #F9EEB3;
 }
 
-#section,
-.section-image {
+#section, .section-image {
     width: 500px;
     height: 600px;
   
@@ -46,14 +45,13 @@ html {
   flex-direction: row;  
   position: relative;
   left: auto;
-  transition: 0.5s left;
+  transition: 1s left ease;
 }
 
 .section-image img {
-    width: 500px;
+  width: 500px;
   height: 600px;
 }
-
 
 .hidden {
   visibility: hidden;
@@ -66,8 +64,8 @@ html {
 }
 
 #button-previous {
-    position: absolute;
-    top: 300px;
+   position: absolute;
+   top: 300px;
 }
 
 #button-next,
@@ -79,6 +77,6 @@ html {
 }
 
 a {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
   }
