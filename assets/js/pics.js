@@ -53,7 +53,7 @@ function checkControls() {
 		prevButton.classList.remove("hidden");
 	}
 
-	if (imageNum === 5) {
+	if (imageNum === 8) {
 		
 		nextButton.classList.add("hidden");
 	}
