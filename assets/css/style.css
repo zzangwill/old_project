@@ -7,8 +7,6 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     
-    scale: .6;
-    
 }
 
 body {
@@ -17,8 +15,8 @@ body {
 
 #img3 {
     position: absolute;
-    right: -100px;
-    top: -150px;
+    right: 0px;
+    top: -50px;
     animation-name: spin;
     animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -26,8 +24,8 @@ body {
 
 #img2 {
     position: absolute;
-    left: -80px;
-    top: -120px;
+    left: 0px;
+    top: -10px;
     
     animation-name: spin;
     animation-delay: 1s;
@@ -37,8 +35,8 @@ body {
 
 #img4 {
     position: absolute;
-    right: 30px;
-    top: 170px;
+    right: 90px;
+    top: 280px;
     animation-name: spin;
     animation-delay: 1s;
     animation-duration: 2s;
@@ -47,8 +45,8 @@ body {
 
 #img1 {
     position: absolute;
-    left: 0px;
-    top: 170px;
+    left: 50px;
+    top: 290px;
     animation-name: spin;
     animation-duration: 2s;
 	animation-iteration-count: infinite;
