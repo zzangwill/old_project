@@ -1,0 +1,84 @@
+html {
+    background-color: #F9EEB3;
+}
+
+#nav {
+    background-color: #AAD1F4;
+    font-family: 'Duru Sans', sans-serif; 
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 198px 10px 10px;
+    font-size: 18pt;
+}
+
+.navitem:hover {
+    cursor: pointer;
+}
+
+.navitem {
+    margin-right: 100px;
+}
+
+.navitem:active {
+    color: #F9EEB3;
+}
+
+#section,
+.section-image {
+    width: 500px;
+    height: 600px;
+  
+}
+
+#section {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  border: #333;
+}
+
+
+#section1 {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;  
+  position: relative;
+  left: auto;
+  transition: 0.5s left;
+}
+
+.section-image img {
+    width: 500px;
+  height: 600px;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+#button-next {
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+
+#button-previous {
+    position: absolute;
+    top: 300px;
+}
+
+#button-next,
+#button-previous {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+  }

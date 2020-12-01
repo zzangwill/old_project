@@ -1,0 +1,101 @@
+html {
+    background-color: #F9EEB3;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    scale: .6;
+    
+}
+
+body {
+    position: relative;
+}
+
+#img3 {
+    position: absolute;
+    right: -100px;
+    top: -150px;
+    animation-name: spin;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#img2 {
+    position: absolute;
+    left: -80px;
+    top: -120px;
+    
+    animation-name: spin;
+    animation-delay: 1s;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#img4 {
+    position: absolute;
+    right: 30px;
+    top: 170px;
+    animation-name: spin;
+    animation-delay: 1s;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#img1 {
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    animation-name: spin;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-family: 'Duru Sans', sans-serif;
+    color: #333;
+    font-size: 40pt;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#discover {
+    font-family: 'Duru Sans', sans-serif;
+    color: #333;
+    font-size: 16pt;
+    text-decoration: none;
+    background-color: #AAD1F4;
+    padding: 10px 18px 10px 18px;
+    border-radius: 25px;
+}
+
+#discover:hover {
+    cursor: pointer;
+    background-color: #c8e2fa;
+    transition: .2s;
+    /*how do i make this transition to the color change?*/
+}
+
+#discover:active {
+    font-size: 20pt;
+}
+
+a {
+    color: #333;
+    text-decoration: none; 
+  }
+ 
+@keyframes spin {
+    0% {transform: translateY(12px);}
+	50% {transform: translateY(0px);}
+    100% {transform: translateY(12px);}
+}
